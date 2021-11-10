@@ -67,7 +67,7 @@
                                 <li> 
                                 <a href="?page=Search">Search Products</a>
                                 </li>
-                                <li><a href="?page=payment">Payment</a></li>
+                                
                                 <?php
                                     if(isset($_SESSION['admin']) && $_SESSION['admin']==1){
                                 ?> 
