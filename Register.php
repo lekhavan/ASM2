@@ -7,7 +7,7 @@
 <script src="js/dataTables.bootstrap.min.js"/></script>
 <?php
 if(isset($_POST['btnRegister'])){
-    $us = $_POST['txtUsername'];
+    $us = $_POST['txtusername'];
     $pass1 = $_POST['txtPass1'];
     $pass2 = $_POST['txtPass2'];
     $fullname = $_POST['txtFullname'];
@@ -54,7 +54,7 @@ if(isset($_POST['btnRegister'])){
         }
     
     else{
-      echo "Username or email already exist"; 
+      echo "username or email already exist"; 
     }
 }
 }
@@ -64,9 +64,9 @@ if(isset($_POST['btnRegister'])){
 			 	<form id="form1" name="form1" method="post" action="" class="form-horizontal" role="form">
 					<div class="form-group">
 						    
-                            <label for="txtTen" class="col-sm-2 control-label">Username(*):  </label>
+                            <label for="txtTen" class="col-sm-2 control-label">username(*):  </label>
 							<div class="col-sm-10">
-							      <input type="text" name="txtUsername" id="txtUsername" class="form-control" placeholder="Username" value="<?php if(isset ($us)) echo $us?>"/>
+							      <input type="text" name="txtusername" id="txtusername" class="form-control" placeholder="username" value="<?php if(isset ($us)) echo $us?>"/>
 							</div>
                       </div>  
                       
